@@ -47,11 +47,12 @@
             <div class="row d-flex justify-content-between">
                 <img src="../../assets/finish.png" alt="finish" style="width: 50%" class="img-fluid col-sm-12 mx-auto">
                 <div class="result text-center col-md-6 col-sm-12">
-                    <h3>Congratulations! <br> You have completed the quiz. <br> Below is your result.</h3>
+                    <h3>Congratulations {{name}}!<br> You have completed the quiz. <br> Below is your result.</h3>
                     <p>Total Question Attempted: {{questionList.length}}</p>
                     <p>Total Correct Answers: {{correctAnswer}}</p>
                     <p>Total incorrect Answers: {{incorrectAnswer}}</p>
                     <p>Your total score is: {{points}} points</p>
+                    <button class="btn btn-primary" routerLink="/welcome" (click)="restartQuiz()">Restart Quiz?</button>
                 </div>
             </div>
         </ng-container>

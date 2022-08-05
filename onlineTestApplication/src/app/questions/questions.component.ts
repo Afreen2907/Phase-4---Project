@@ -125,4 +125,9 @@ export class QuestionsComponent implements OnInit {
     return this.progress;
   }
 
+  restartQuiz() {
+    localStorage.removeItem("name")
+    this.resetQuiz()
+  }
+
 }
