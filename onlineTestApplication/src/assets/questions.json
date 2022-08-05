@@ -160,6 +160,24 @@
                 }
             ],
             "explanation": "this.propertyName is the way to access a specific property within a class"
+        },
+        {
+            "questionText": "How is pipe defined?",
+            "options": [{
+                    "text": "|",
+                    "correct": true
+                },
+                {
+                    "text": "?"
+                },
+                {
+                    "text": ":"
+                },
+                {
+                    "text": ";"
+                }
+            ],
+            "explanation": "Pipes are defined using the pipe “|” symbol. "
         }
     ]
 }
